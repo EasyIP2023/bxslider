@@ -1,3 +1,4 @@
+require "bxslider/version"
 module Bxslider
   class Engine < ::Rails::Engine
     initializer 'bxslider.assets.precompile' do |app|
